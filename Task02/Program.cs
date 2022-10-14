@@ -4,6 +4,8 @@ Console.WriteLine("Привет! Эта программа может выдав
 Console.Write("Введите число от 1 до 7: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
+if(number > 0 && number < 8)
+{
 if(number == 1)
 {
         Console.WriteLine("Понедельник");
@@ -39,6 +41,7 @@ else if(number == 7)
         Console.WriteLine("Воскресенье");
 }
 
+}
 else
 {
     Console.WriteLine("Недопустимое значение ввода");
